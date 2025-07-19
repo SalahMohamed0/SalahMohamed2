@@ -1,0 +1,23 @@
+.join {
+      background-color: #3a6bd4;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 30px;
+      border: none;
+    }
+
+    .main-button:hover {
+      background-color: #225e5f;
+    }
+
+    .main-img {
+      border-radius: 12px;
+      width: 100%;
+      height: auto;
+    }
+
+    .main-text {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
