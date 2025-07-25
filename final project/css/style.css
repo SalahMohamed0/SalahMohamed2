@@ -1,0 +1,220 @@
+/* إظهار القائمة عند التحويم على عنصر dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* إزالة أي فراغ علوي */
+}
+
+/* تحسينات على الانميشن (اختياري) */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+
+.bg-image{
+  background-image: url('image/slider1.jpg');
+  background-size: cover;
+}
+.service-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  border-color: #00bcd4;
+}
+
+.hover-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#fff;
+  color: #000;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.service-card:hover .hover-card {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hover-card h5 {
+  font-weight: bold;
+}
+
+.hover-card p {
+  font-size: 14px;
+}
+
+.hover-card a.btn {
+  margin-top: 10px;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(33, 110, 198, 0.9);
+  color: rgb(255, 241, 241);
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover .overlay {
+  transform: translateY(0);
+}
+
+.overlay small {
+  font-size: 0.8rem;
+  display: block;
+}
+
+.team-member {
+  position: relative;
+  width: 200px; /* حجم ثابت لتوحيد الصور */
+  overflow: hidden;
+}
+
+.team-img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.overlay-member {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(244, 228, 228, 0.95);
+  padding: 15px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.team-member:hover .overlay {
+  transform: translateY(0);
+}
+
+.overlay h5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.overlay p {
+  font-size: 13px;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: white;
+  background-color: #007bff;
+  margin: 0 3px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.counter-box {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .counter-box i {
+      font-size: 40px;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .counter {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .label {
+      color: #555;
+    }
+
+.owl-nav{
+  text-align: center;
+}
+.owl-next{
+  
+  margin-left: 30px;
+}
+
+.testimonial-title .line-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-title .line {
+  height: 2px;
+  background-color: #007bff; /* لون أزرق */
+  margin: 2px 0;
+  border-radius: 2px;
+}
+
+.testimonial-title .line.long {
+  width: 60px;
+}
+
+.testimonial-title .line.short {
+  width: 30px;
+}
+.client-logo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #0d6efd;
+  padding-left: 5px;
+}
+
+span:hover{
+  color: #52c280;
+}
